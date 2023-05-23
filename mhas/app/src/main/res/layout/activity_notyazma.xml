@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".notyazma">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_marginTop="30dp"
+    android:textAlignment="center"
+    android:textSize="30sp"
+    android:text="ŞİKAYETİNİZİ KISA BİR ŞEKİLDE AÇIKLAYINIZ."
+    android:textColor="#FFFFFF"
+    android:layout_height="match_parent">
+
+</TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editnot"
+            android:gravity="top"
+            android:padding="10dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/renk2" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/buttonnot"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="570dp"
+            android:background="@drawable/renkbutton"
+            android:text="RANDEVU AL"
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="210dp">
+
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

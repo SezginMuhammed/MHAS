@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".randevualindi">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/tik"
+        android:layout_height="150dp">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="400dp"
+            android:text="RANDEVUNUZ BAŞARIYLA ALINMIŞTIR!"
+            android:layout_marginTop="400dp"
+            android:textColor="#00FF22"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:layout_height="200dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/buttoncikis"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="570dp"
+            android:background="@drawable/renkbutton"
+            android:text="ÇIKIŞ"
+            android:textSize="27sp"
+            android:textColor="#0003B6"
+            android:layout_marginLeft="210dp">
+
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

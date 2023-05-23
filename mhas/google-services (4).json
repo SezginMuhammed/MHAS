@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "275294048090",
+    "project_id": "mhaslogin",
+    "storage_bucket": "mhaslogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275294048090:android:19ad8e278ff215d873ed63",
+        "android_client_info": {
+          "package_name": "com.example.mhas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275294048090-sqpne6fm2622a9a6l0q08k5g52cgespm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7mc9NTB_Dmpv4PiBpOtlajz72dv3zpuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275294048090-sqpne6fm2622a9a6l0q08k5g52cgespm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
